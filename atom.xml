@@ -3,7 +3,42 @@
     <id>https://zhan-xiaoye.gitee.io/myhexo</id>
     <title>Hexo</title>
     <link href="https://zhan-xiaoye.gitee.io/myhexo" />
-    <updated>2021-04-18T12:07:17.000Z</updated>
+    <updated>2021-04-21T11:16:05.000Z</updated>
+    <entry>
+        <id>https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/Python%E9%83%A8%E5%88%86/</id>
+        <title>Python部分</title>
+        <link rel="alternate" href="https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/Python%E9%83%A8%E5%88%86/"/>
+        <content type="html">&lt;h1 id=&#34;python部分&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#python部分&#34;&gt;#&lt;/a&gt; Python 部分&lt;/h1&gt;
+&lt;h4 id=&#34;25什么是深浅拷贝如何实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#25什么是深浅拷贝如何实现&#34;&gt;#&lt;/a&gt; 2.5 什么是深浅拷贝，如何实现&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;浅拷贝:copy.copy()	  只拷贝第一层,不会拷贝深层次,修改第一层不会改变,修改深层次就会互相影响了.	  注意:切片操作也可以实现浅拷贝哦.深拷贝:copy.deepcopy()	  是即递归性质的浅拷贝,他会在内存中生成一套于完全一样的内容,修改其中一个变量,不会影响另一个.	  也就说,深拷贝就是所有数据重新创建.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;26您能说说python自省吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#26您能说说python自省吗&#34;&gt;#&lt;/a&gt; 2.6 您能说说 python 自省吗&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;自省就是程序运行期间能够获得对象的类型.函数有:dir:获取当前对象内部的属性.type:获取当前对象的类型.hasattr:获取当前对象是否包含某个属性.isinstance:判断对象是否是某个类的实例.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3数据类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3数据类型&#34;&gt;#&lt;/a&gt; 3. 数据类型&lt;/h3&gt;
+&lt;h4 id=&#34;31您知道python中的数据类型吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#31您知道python中的数据类型吗&#34;&gt;#&lt;/a&gt; 3.1 您知道 Python 中的数据类型吗？&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;python的数据类型分为可变和不可变两大类	可变: 列表(list) 集合(set) 字典(dict)	不可变: 数字(number) 字符串(string) 元组(tuple) 不可变集合(frozenset)为什么可变和不可变?可变数据类类型:变量引用的数据类型,更值后,存在开不辟新内存的行为不可变数据类型:变量引用的数据类型,更值后,不存在不开辟新内存的行为&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;32您能说说列表和元组的区别吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#32您能说说列表和元组的区别吗&#34;&gt;#&lt;/a&gt; 3.2 您能说说列表和元组的区别吗？&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;相同点: 都是序列类型       列表与元组都是序列型的容器对象,可以存放任何类型的数据,支持切片,迭代等操作.不同点: (1)不可变和可变		两种类型除了(括号与方括号),最重要的是元组是不可变集合,大小固定,列表是可变数据类型,数据可以动态变化,这种差异导致两者提供的方法,应用场景还有性能上很大区别.	   (2)同构和异构		元组用于存储异构数据,当做没有字段名的记录来使用,比如&amp;#96;个人信息,		列表一般用于存储同构数据,同构数据就是具有相同意义的数据.比如都是字符串类型.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;33你能完美详细的说说字典的底层吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#33你能完美详细的说说字典的底层吗&#34;&gt;#&lt;/a&gt; 3.3 你能完美详细的说说字典的底层吗？&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4内存管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4内存管理&#34;&gt;#&lt;/a&gt; 4. 内存管理&lt;/h3&gt;
+&lt;h4 id=&#34;41您懂引用记数吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#41您懂引用记数吗&#34;&gt;#&lt;/a&gt; 4.1 您懂引用记数吗？&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;当一个对像的引用被创建或复制时,改引记数+1.当一个对象的引用被销毁时,改引记数-1.当引记减少为0时,就意味着没有没被使用,可以将其内存释放掉了.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;42您懂标记-清除吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#42您懂标记-清除吗&#34;&gt;#&lt;/a&gt; 4.2 您懂标记 - 清除吗？&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;分为两个阶段:第一个阶段会把所有活动的对象打上标记,第二个阶段会把那些没有标记的对象进行回收.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;43您懂分代回收吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#43您懂分代回收吗&#34;&gt;#&lt;/a&gt; 4.3 您懂分代回收吗？&lt;/h4&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;分代回收建立是在标记清除的基础上的,是以空间换时间的操作方式.分代回收就是将回收对象分为数个代:青年代,中年代,老年代当青年代满时,将触发清理所有三个代,执行标记清除动作.之后,中年代满时,将触发清理中年代,老年代;最后老年代满时,触发只会处理清除自己.注意:老年代是存活时间最长的.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <updated>2021-04-21T11:16:05.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/zhu3/</id>
+        <title>zhu3</title>
+        <link rel="alternate" href="https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/zhu3/"/>
+        <content type="html">&lt;p&gt;#helloooooooooooooooooooo&lt;/p&gt;
+</content>
+        <updated>2021-04-21T07:46:36.000Z</updated>
+    </entry>
     <entry>
         <id>https://zhan-xiaoye.gitee.io/myhexo/2021/04/18/zhu2/</id>
         <title>zhu2</title>
@@ -11,26 +46,5 @@
         <content type="html">&lt;p&gt;#helloooooooooooooooooooo&lt;/p&gt;
 </content>
         <updated>2021-04-18T12:07:17.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://zhan-xiaoye.gitee.io/myhexo/2021/04/17/hello-world/</id>
-        <title>最火文章</title>
-        <link rel="alternate" href="https://zhan-xiaoye.gitee.io/myhexo/2021/04/17/hello-world/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
-</content>
-        <updated>2021-04-17T10:45:04.541Z</updated>
     </entry>
 </feed>
