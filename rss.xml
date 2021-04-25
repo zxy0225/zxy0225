@@ -2,15 +2,15 @@
 <rss version="2.0">
     <channel>
         <title>Hexo</title>
-        <link>https://zhan-xiaoye.gitee.io/myhexo</link>
+        <link>https://zxy0225.github.io/zxy0225</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Fri, 23 Apr 2021 11:29:14 +0800</pubDate>
         <lastBuildDate>Fri, 23 Apr 2021 11:29:14 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://zhan-xiaoye.gitee.io/myhexo/2021/04/23/Python%E9%83%A8%E5%88%86/</guid>
+            <guid isPermalink="true">https://zxy0225.github.io/zxy0225/2021/04/23/Python%E9%83%A8%E5%88%86/</guid>
             <title>Python部分</title>
-            <link>https://zhan-xiaoye.gitee.io/myhexo/2021/04/23/Python%E9%83%A8%E5%88%86/</link>
+            <link>https://zxy0225.github.io/zxy0225/2021/04/23/Python%E9%83%A8%E5%88%86/</link>
             <pubDate>Fri, 23 Apr 2021 11:29:14 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python部分&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#python部分&#34;&gt;#&lt;/a&gt; Python 部分&lt;/h1&gt;
 &lt;h4 id=&#34;25什么是深浅拷贝如何实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#25什么是深浅拷贝如何实现&#34;&gt;#&lt;/a&gt; 2.5 什么是深浅拷贝，如何实现&lt;/h4&gt;
@@ -35,9 +35,9 @@
 &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;分代回收建立是在标记清除的基础上的,是以空间换时间的操作方式.分代回收就是将回收对象分为数个代:青年代,中年代,老年代当青年代满时,将触发清理所有三个代,执行标记清除动作.之后,中年代满时,将触发清理中年代,老年代;最后老年代满时,触发只会处理清除自己.注意:老年代是存活时间最长的.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/hello-world/</guid>
+            <guid isPermalink="true">https://zxy0225.github.io/zxy0225/2021/04/21/hello-world/</guid>
             <title>最火文章</title>
-            <link>https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/hello-world/</link>
+            <link>https://zxy0225.github.io/zxy0225/2021/04/21/hello-world/</link>
             <pubDate>Wed, 21 Apr 2021 16:20:53 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
@@ -56,17 +56,17 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/zhu3/</guid>
+            <guid isPermalink="true">https://zxy0225.github.io/zxy0225/2021/04/21/zhu3/</guid>
             <title>zhu3</title>
-            <link>https://zhan-xiaoye.gitee.io/myhexo/2021/04/21/zhu3/</link>
+            <link>https://zxy0225.github.io/zxy0225/2021/04/21/zhu3/</link>
             <pubDate>Wed, 21 Apr 2021 15:46:36 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;#helloooooooooooooooooooo&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://zhan-xiaoye.gitee.io/myhexo/2021/04/18/zhu2/</guid>
+            <guid isPermalink="true">https://zxy0225.github.io/zxy0225/2021/04/18/zhu2/</guid>
             <title>zhu2</title>
-            <link>https://zhan-xiaoye.gitee.io/myhexo/2021/04/18/zhu2/</link>
+            <link>https://zxy0225.github.io/zxy0225/2021/04/18/zhu2/</link>
             <pubDate>Sun, 18 Apr 2021 20:07:17 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;#helloooooooooooooooooooo&lt;/p&gt;
  ]]></description>
